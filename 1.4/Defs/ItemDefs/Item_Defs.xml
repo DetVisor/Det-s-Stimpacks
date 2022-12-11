@@ -115,10 +115,10 @@
         <recipeMaker>
             <researchPrerequisite>MedicineProduction</researchPrerequisite>
             <skillRequirements>
-                <Intellectual>6</Intellectual>
+                <Intellectual>3</Intellectual>
             </skillRequirements>
             <recipeUsers Inherit="false">
-                <li>DrugLab</li>
+                <li>CraftingSpot</li>
             </recipeUsers>
         </recipeMaker>
         <comps>
