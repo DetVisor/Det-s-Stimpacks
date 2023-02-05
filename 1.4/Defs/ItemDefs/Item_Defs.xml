@@ -29,7 +29,7 @@
         <ingestible>
 		    <preferability>NeverForNutrition</preferability>
 		    <foodType>Processed</foodType>
-            <drugCategory>Medical</drugCategory>
+            <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
 			<ingestCommandString>Inject {0}</ingestCommandString>
             <ingestReportString>Injecting {0}.</ingestReportString>
@@ -93,7 +93,7 @@
         <ingestible>
 		    <preferability>NeverForNutrition</preferability>
 		    <foodType>Processed</foodType>
-            <drugCategory>Medical</drugCategory>
+            <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Pill</ingestSound>
 			<ingestCommandString>Apply {0}</ingestCommandString>
             <ingestReportString>Applying {0}.</ingestReportString>
@@ -162,7 +162,7 @@
         <ingestible>
 		    <preferability>NeverForNutrition</preferability>
 		    <foodType>Processed</foodType>
-            <drugCategory>Medical</drugCategory>
+            <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
 			<ingestCommandString>Inject {0}</ingestCommandString>
             <ingestReportString>Injecting {0}.</ingestReportString>
