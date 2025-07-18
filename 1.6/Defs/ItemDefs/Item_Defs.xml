@@ -5,7 +5,7 @@
         <defName>DV_AdrenalineShot</defName>
         <label>adrenaline shot</label>
         <description>A synthetic hormone that is injected into the bloodstream, triggering the user’s flight or fight response. It increases their blood circulation and breathing while numbing their pain, priming the user for either intense combat or a swift escape.</description>
-		<possessionCount>3</possessionCount>
+        <possessionCount>3</possessionCount>
         <techLevel>Industrial</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -14,7 +14,7 @@
         <graphicData>
             <texPath>Things/Stimpacks/AdrenalineShot</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.7</drawSize>
+            <drawSize>0.7</drawSize>
         </graphicData>
         <socialPropernessMatters>false</socialPropernessMatters>
         <rotatable>false</rotatable>
@@ -25,14 +25,14 @@
             <Flammability>0.1</Flammability>
         </statBases>
         <ingestible>
-		    <preferability>NeverForNutrition</preferability>
-		    <foodType>Processed</foodType>
+            <preferability>NeverForNutrition</preferability>
+            <foodType>Processed</foodType>
             <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
-			<ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestCommandString>Inject {0}</ingestCommandString>
             <ingestReportString>Injecting {0}.</ingestReportString>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<baseIngestTicks>60</baseIngestTicks>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <baseIngestTicks>60</baseIngestTicks>
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -41,9 +41,9 @@
                 </li>
             </outcomeDoers>
         </ingestible>
-		<costList>
-          <Neutroamine>3</Neutroamine>
-          <Plasteel>5</Plasteel>
+        <costList>
+            <Neutroamine>3</Neutroamine>
+            <Plasteel>5</Plasteel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>MedicineProduction</researchPrerequisite>
@@ -62,13 +62,13 @@
         </comps>
     </ThingDef>
 
-  <!--=============== Industrial Stimpack ====================-->
+    <!--=============== Industrial Stimpack ====================-->
 
     <ThingDef ParentName="MakeableDrugBase">
         <defName>StimpackIndustrial</defName>
         <label>stimpack</label>
         <description>A small industrial-era medical device, designed to inject a complex cocktail of performance-enhancing chemicals and other drugs in the field. It increases its user's pain tolerance and natural regeneration.</description>
-		<possessionCount>3</possessionCount>
+        <possessionCount>3</possessionCount>
         <techLevel>Industrial</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -77,7 +77,7 @@
         <graphicData>
             <texPath>Things/Stimpacks/Stimpack</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.7</drawSize>
+            <drawSize>0.7</drawSize>
         </graphicData>
         <socialPropernessMatters>false</socialPropernessMatters>
         <rotatable>false</rotatable>
@@ -88,14 +88,14 @@
             <Flammability>0.2</Flammability>
         </statBases>
         <ingestible>
-		    <preferability>NeverForNutrition</preferability>
-		    <foodType>Processed</foodType>
+            <preferability>NeverForNutrition</preferability>
+            <foodType>Processed</foodType>
             <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
-			<ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestCommandString>Inject {0}</ingestCommandString>
             <ingestReportString>Injecting {0}.</ingestReportString>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<baseIngestTicks>60</baseIngestTicks>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <baseIngestTicks>60</baseIngestTicks>
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -104,9 +104,9 @@
                 </li>
             </outcomeDoers>
         </ingestible>
-		<costList>
-          <Neutroamine>2</Neutroamine>
-          <Steel>5</Steel>
+        <costList>
+            <Neutroamine>2</Neutroamine>
+            <Steel>5</Steel>
         </costList>
         <recipeMaker>
             <researchPrerequisite>MedicineProduction</researchPrerequisite>
@@ -124,24 +124,24 @@
             </li>
         </comps>
     </ThingDef>
-	
-	<!--=============== Herbal Powder ====================-->
-	
-	<ThingDef ParentName="MakeableDrugBase">
+
+    <!--=============== Herbal Powder ====================-->
+
+    <ThingDef ParentName="MakeableDrugBase">
         <defName>HerbalPowder</defName>
         <label>herbal powder</label>
         <description>A mixture of processed herbs used in various primitive societies. It aids in managing its user's pain and accelerating natural healing, but has a poor shelf life. Typically, it is applied as soon as it prepared.</description>
-		<possessionCount>3</possessionCount>
+        <possessionCount>3</possessionCount>
         <techLevel>Neolithic</techLevel>
         <stackLimit>25</stackLimit>
-		<tickerType>Normal</tickerType>
+        <tickerType>Normal</tickerType>
         <descriptionHyperlinks>
             <HediffDef>HerbalPowderHediff</HediffDef>
         </descriptionHyperlinks>
         <graphicData>
             <texPath>Things/Stimpacks/HerbalPowder</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.7</drawSize>
+            <drawSize>0.7</drawSize>
         </graphicData>
         <socialPropernessMatters>false</socialPropernessMatters>
         <rotatable>false</rotatable>
@@ -152,14 +152,14 @@
             <Flammability>0.5</Flammability>
         </statBases>
         <ingestible>
-		    <preferability>NeverForNutrition</preferability>
-		    <foodType>Processed</foodType>
+            <preferability>NeverForNutrition</preferability>
+            <foodType>Processed</foodType>
             <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Pill</ingestSound>
-			<ingestCommandString>Apply {0}</ingestCommandString>
+            <ingestCommandString>Apply {0}</ingestCommandString>
             <ingestReportString>Applying {0}.</ingestReportString>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<baseIngestTicks>90</baseIngestTicks>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <baseIngestTicks>90</baseIngestTicks>
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">
@@ -168,8 +168,8 @@
                 </li>
             </outcomeDoers>
         </ingestible>
-		<costList>
-          <MedicineHerbal>2</MedicineHerbal>
+        <costList>
+            <MedicineHerbal>2</MedicineHerbal>
         </costList>
         <recipeMaker>
             <skillRequirements>
@@ -180,24 +180,24 @@
             </recipeUsers>
         </recipeMaker>
         <comps>
-		    <li Class="CompProperties_Rottable">
+            <li Class="CompProperties_Rottable">
                 <daysToRotStart>150</daysToRotStart>
                 <rotDestroys>true</rotDestroys>
-           </li>
+            </li>
             <li Class="CompProperties_Drug">
                 <listOrder>200</listOrder>
                 <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
             </li>
         </comps>
     </ThingDef>
-	
-	  <!--=============== Ultratech Stimpack ====================-->
+
+    <!--=============== Ultratech Stimpack ====================-->
 
     <ThingDef ParentName="DrugBase">
         <defName>StimpackUltratech</defName>
         <label>glitterworld stimpack</label>
         <description>A clunky ultratech medical device, equipped with various nano-needles, it is designed to inject a swarm of medical nanites along with a mix of advanced chemicals to fix wounds, heal injuries and boost various capabilities in the field. It increases natural regeneration and blood coagulation, the nanites are also capable of regenerating tissue and even rebuilding missing organs or limbs.</description>
-		<possessionCount>3</possessionCount>
+        <possessionCount>3</possessionCount>
         <techLevel>Ultra</techLevel>
         <stackLimit>25</stackLimit>
         <descriptionHyperlinks>
@@ -206,7 +206,7 @@
         <graphicData>
             <texPath>Things/Stimpacks/GlitterStimpack</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
-			<drawSize>0.7</drawSize>
+            <drawSize>0.7</drawSize>
         </graphicData>
         <socialPropernessMatters>false</socialPropernessMatters>
         <rotatable>false</rotatable>
@@ -215,37 +215,26 @@
             <Mass>0.32</Mass>
             <Flammability>0.0</Flammability>
         </statBases>
-		<tradeTags>
-          <li>ExoticMisc</li>
+        <tradeTags>
+            <li>ExoticMisc</li>
         </tradeTags>
-        <thingSetMakerTags><li>RewardStandardCore</li></thingSetMakerTags>
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
         <allowedArchonexusCount>5</allowedArchonexusCount>
         <costList>
-            <MedicineIndustrial>2</MedicineIndustrial>
-            <USH_GlitterChip  MayRequire="Ushanka.GlitterworldUprising">1</USH_GlitterChip>
-          </costList>
-        <recipeMaker MayRequire="Ushanka.GlitterworldUprising">
-            <recipeUsers>
-              <li>FabricationBench</li>
-            </recipeUsers>
-            <workSkill>Intellectual</workSkill>
-            <skillRequirements>
-              <Crafting>4</Crafting>
-              <Intellectual>6</Intellectual>
-            </skillRequirements>
-            <workAmount>8000</workAmount>
-            <unfinishedThingDef>USH_UnfinishedHealthItemGlitter</unfinishedThingDef>
-            <researchPrerequisite>USH_NeuromodifiersBasicsRes</researchPrerequisite>
-          </recipeMaker>
+            <Steel>2</Steel>
+            <Neutroamine>1</Neutroamine>
+        </costList>
         <ingestible>
-		    <preferability>NeverForNutrition</preferability>
-		    <foodType>Processed</foodType>
+            <preferability>NeverForNutrition</preferability>
+            <foodType>Processed</foodType>
             <drugCategory>Hard</drugCategory>
             <ingestSound>Ingest_Inject</ingestSound>
-			<ingestCommandString>Inject {0}</ingestCommandString>
+            <ingestCommandString>Inject {0}</ingestCommandString>
             <ingestReportString>Injecting {0}.</ingestReportString>
-			<ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<baseIngestTicks>60</baseIngestTicks>
+            <ingestHoldUsesTable>false</ingestHoldUsesTable>
+            <baseIngestTicks>60</baseIngestTicks>
             <chairSearchRadius>0</chairSearchRadius>
             <outcomeDoers>
                 <li Class="IngestionOutcomeDoer_GiveHediff">

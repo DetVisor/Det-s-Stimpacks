@@ -5,6 +5,7 @@
 	<supportedVersions>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<packageId>det.battlemeds</packageId>
 	<loadAfter>
@@ -15,7 +16,7 @@
 		<li>UnlimitedHugs.HugsLib</li>
 		<li>brrainz.harmony</li>
 		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>smartkar.athenaframework</li>
+		<li>ushanka.glittertechexpansion</li>
 	</loadAfter>
-	<description>This mod introduces 3 new medical items, Herbal Powder, made with herbal medicine, Industrial Stimpacks, which can be crafted at drug labs and Glitter Stimpacks which can be found from quests or can be bought.</description>
+	<description>This mod introduces 4 new medical items, Herbal Powder, made with herbal medicine, Industrial Stimpacks, which can be crafted at drug labs and Glitter Stimpacks which can be found from quests or can be bought, and more.</description>
 </ModMetaData>

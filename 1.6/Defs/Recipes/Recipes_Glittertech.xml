@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef MayRequire="ushanka.glittertechexpansion" ParentName="USH_BaseGlittertechForming">
+        <defName>DV_Form_StimpackUltratechB</defName>
+        <label>form glitterworld stimpacks x8</label>
+        <description>Form glitterworld stimpacks x8.</description>
+        <gestationCycles>4</gestationCycles>
+        <formingTicks>2200</formingTicks>
+        <researchPrerequisite>USH_NeuromodifiersBasicsRes</researchPrerequisite>
+        <recipeUsers>
+            <li>USH_GlittertechFabricator</li>
+        </recipeUsers>
+        <ingredients Inherit="false">
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+                <count>6</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>USH_Glittercore</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <StimpackUltratech>8</StimpackUltratech>
+        </products>
+        <descriptionHyperlinks>
+            <ThingDef>StimpackUltratech</ThingDef>
+        </descriptionHyperlinks>
+        <modExtensions>
+            <li Class="USH_GE.ModExtension_UseGlittertechBill">
+                <powerNeeded>1000</powerNeeded>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>
